@@ -1,0 +1,30 @@
+.pealkiri {
+    margin-top: 80px;
+    font-size: x-large;
+    font-family: verdana;
+}
+.kasutaja {
+    margin-top: 8px
+    font-size: larger;
+    font-style: normal;
+    font-family: verdana; 
+}
+.email {
+    margin-top: 8px;
+    font-size: larger;
+    font-family: verdana;
+}
+.parool {
+    margin-top: 8px;
+    font-size: larger;
+    font-family: verdana;
+}
+.robot {
+    margin-top: 8px;
+    font-size: larger;
+    font-family: verdana;
+}
+.submit {
+    margin-top: 8px;
+    font-family: verdana;
+}

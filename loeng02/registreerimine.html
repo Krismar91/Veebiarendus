@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registreerimine</title>
+    <link rel="stylesheet" href="registreerimine.css">
+    <style>
+        body {
+            background-image: url('taust.jpeg');
+        }
+    </style>
+</head>
+<body style="text-align: center">
+    <div class="pealkiri">
+        <h1 style="color: lime;">Registreeri end galaktikasse</h1>
+    </div>
+    <form action="#" method="get">
+        <div class="kasutaja">
+            <label style="color: limegreen;" for="Kasutajanimi">Kasutajanimi:</label><br>
+            <input type="text" placeholder="Sisesta kasutajanimi" id="Kasutajanimi" name="Kasutajanimi">
+        </div>
+        <div class="email">
+            <label style="color: limegreen;" for="E-mail">E-mail:</label><br>
+            <input type="text" placeholder="Sisesta E-mail" id="Email" name="Email">
+        </div>
+        <div class="parool">
+            <label style="color: limegreen;" for="Salasona">Salasõna:</label><br>
+            <input type="password" placeholder="Sisesta salasõna" id="Salasõna" name="Salasõna"><br>
+            <label style="color: limegreen;" for="Korda salasõna">Korda salasõna:</label><br>
+            <input type="password" placeholder="Korda salasõna" id="Korda salasõna" name="Korda salasõna">
+        </div>
+        <label style="color: limegreen;" for="Ma ei ole robot">Ma ei ole robot:</label>
+        <div class="robot">
+            <input type="checkbox" id="Ma ei ole robot" name="Ma ei ole robot"><br>
+        </div>
+        <div class="submit">
+            <input type="submit" value="Registreeri" style="color: green;">           
+        </div>
+    </form>
+</body>
+</html>
