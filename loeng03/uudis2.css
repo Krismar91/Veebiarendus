@@ -1,0 +1,49 @@
+html {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+div#konteiner {
+    max-width: 900px;
+    background-color: rgb(164, 210, 218);
+    min-height: 400px;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.uudis {
+    display: flex;
+}
+
+h1 {
+    font-size: 2.1rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-family: 'Arimo', sans-serif;
+}
+
+.uudis-sisu {
+    font-size: 1rem;
+}
+
+.uudis-autor,
+.uudis-kuupaev {
+    font-size: 0.7rem;
+    display: inline-block;
+}
+
+.uudis-autor {
+    font-weight: bold;
+    width: 70%;
+}
+
+.uudis-kuupaev{
+    width: 80%;
+    text-align: right;
+}
