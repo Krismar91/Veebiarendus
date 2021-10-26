@@ -41,7 +41,6 @@ header {
     align-items: center;
     height: 100px;
     background-color: white;
-    padding-right: 30px;
 }
 
 header img {
@@ -52,8 +51,8 @@ header img {
 nav {
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: rgb(69, 16, 82);
+    justify-content: center; 
+    background-color: rgb(95, 21, 114);
     font-style: normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -98,6 +97,12 @@ section form > * {
 }
 
 /* Külgpaanid */
+@media screen and (max-width: 576px) {
+    aside {
+        display:none
+    }
+}
+
 main > aside {
     background-color: white;
 }
@@ -112,6 +117,7 @@ aside img {
 /* Vasak */
 main > aside ul {
     font-size: 18px;
+    padding-left: 10px;
 }
 
 main > aside li {
@@ -130,6 +136,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     border-style: none;
+    background-color: rgb(69, 16, 82);
 }
 
 a:link {
